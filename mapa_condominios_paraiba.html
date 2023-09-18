@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ba8e9484bc26aebc08cfe0d0db13b489 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ba8e9484bc26aebc08cfe0d0db13b489" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ba8e9484bc26aebc08cfe0d0db13b489 = L.map(
+                "map_ba8e9484bc26aebc08cfe0d0db13b489",
+                {
+                    center: [-7.3999, -36.2245],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b7f10dc4ccb9ae896e3580f0564948ed = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+            var marker_4244ecbb48470bca2f2fee9fcce35c52 = L.marker(
+                [-7.139708, -34.841527],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_dc96fb6befc1abf371c0bfc11b7d25e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a107b6b85e354557a1c2135acd4afe1 = $(`<div id="html_5a107b6b85e354557a1c2135acd4afe1" style="width: 100.0%; height: 100.0%;">Condomínio das Américas</div>`)[0];
+                popup_dc96fb6befc1abf371c0bfc11b7d25e2.setContent(html_5a107b6b85e354557a1c2135acd4afe1);
+            
+        
+
+        marker_4244ecbb48470bca2f2fee9fcce35c52.bindPopup(popup_dc96fb6befc1abf371c0bfc11b7d25e2)
+        ;
+
+        
+    
+    
+            var marker_9f600eb9ef8f5e228537c6c2aac44ead = L.marker(
+                [-7.1301, -34.8534],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_b020fcf14a7c73d0bfdf2df2ad07261f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0237bcaa3cccdd86b3f5925d6aaae0a = $(`<div id="html_a0237bcaa3cccdd86b3f5925d6aaae0a" style="width: 100.0%; height: 100.0%;">Condomínio Residencial Extremo Oriental</div>`)[0];
+                popup_b020fcf14a7c73d0bfdf2df2ad07261f.setContent(html_a0237bcaa3cccdd86b3f5925d6aaae0a);
+            
+        
+
+        marker_9f600eb9ef8f5e228537c6c2aac44ead.bindPopup(popup_b020fcf14a7c73d0bfdf2df2ad07261f)
+        ;
+
+        
+    
+    
+            var marker_a5c48c0ca1b90922079c4e9c46a396d9 = L.marker(
+                [-7.1189, -34.865],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_1629da08a6d36af6cbd800864efd83de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47e390a8e342a5c6f9fdbd34a93073f2 = $(`<div id="html_47e390a8e342a5c6f9fdbd34a93073f2" style="width: 100.0%; height: 100.0%;">Condominio Vila Real</div>`)[0];
+                popup_1629da08a6d36af6cbd800864efd83de.setContent(html_47e390a8e342a5c6f9fdbd34a93073f2);
+            
+        
+
+        marker_a5c48c0ca1b90922079c4e9c46a396d9.bindPopup(popup_1629da08a6d36af6cbd800864efd83de)
+        ;
+
+        
+    
+    
+            var marker_6494c5eee9469a182edc3f191861d956 = L.marker(
+                [-7.1189, -34.847],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_db2f421069826e0c65403f4fdcd6ea72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8858b43751a89443dd2a7e6458e1d5d2 = $(`<div id="html_8858b43751a89443dd2a7e6458e1d5d2" style="width: 100.0%; height: 100.0%;">Condomínio Villas do Farol</div>`)[0];
+                popup_db2f421069826e0c65403f4fdcd6ea72.setContent(html_8858b43751a89443dd2a7e6458e1d5d2);
+            
+        
+
+        marker_6494c5eee9469a182edc3f191861d956.bindPopup(popup_db2f421069826e0c65403f4fdcd6ea72)
+        ;
+
+        
+    
+    
+            var marker_b6513a9c5a06fdeb0faba96b8494129f = L.marker(
+                [-7.1399, -34.823],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_aac046a2c6133a464de6b2bed5e70714 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c425250e2c4ac56fdf349afd0c308e28 = $(`<div id="html_c425250e2c4ac56fdf349afd0c308e28" style="width: 100.0%; height: 100.0%;">Condomínio Bougainville Residence Prive</div>`)[0];
+                popup_aac046a2c6133a464de6b2bed5e70714.setContent(html_c425250e2c4ac56fdf349afd0c308e28);
+            
+        
+
+        marker_b6513a9c5a06fdeb0faba96b8494129f.bindPopup(popup_aac046a2c6133a464de6b2bed5e70714)
+        ;
+
+        
+    
+    
+            var marker_4d4fe8618b41a30d883ae2411a0629c9 = L.marker(
+                [-7.1199, -34.835],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_7e23fa9d33f52875485afcfa3afab0ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b07568c47847d45b6ac76f642b2f7182 = $(`<div id="html_b07568c47847d45b6ac76f642b2f7182" style="width: 100.0%; height: 100.0%;">Condomínio Cabo Branco Residence Privê</div>`)[0];
+                popup_7e23fa9d33f52875485afcfa3afab0ae.setContent(html_b07568c47847d45b6ac76f642b2f7182);
+            
+        
+
+        marker_4d4fe8618b41a30d883ae2411a0629c9.bindPopup(popup_7e23fa9d33f52875485afcfa3afab0ae)
+        ;
+
+        
+    
+    
+            var marker_97634d858fd36311d6afa74ff26bf2e1 = L.marker(
+                [-7.1397, -34.824],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_756917e1ccfa82d971357cea2dbf4d59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c286b04e9cdec530d0c01a5d959b10fa = $(`<div id="html_c286b04e9cdec530d0c01a5d959b10fa" style="width: 100.0%; height: 100.0%;">Condomínio Residencial Bosque das Orquídeas</div>`)[0];
+                popup_756917e1ccfa82d971357cea2dbf4d59.setContent(html_c286b04e9cdec530d0c01a5d959b10fa);
+            
+        
+
+        marker_97634d858fd36311d6afa74ff26bf2e1.bindPopup(popup_756917e1ccfa82d971357cea2dbf4d59)
+        ;
+
+        
+    
+    
+            var marker_263f22cc0a3a47a1f71ae8bda264272f = L.marker(
+                [-7.1345, -34.867],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_e9982d69cea57244e03a5140ae97c29c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_605295bb679ba51d5e55e217cc393ace = $(`<div id="html_605295bb679ba51d5e55e217cc393ace" style="width: 100.0%; height: 100.0%;">Condomínio Residencial Bosque das Gameleiras</div>`)[0];
+                popup_e9982d69cea57244e03a5140ae97c29c.setContent(html_605295bb679ba51d5e55e217cc393ace);
+            
+        
+
+        marker_263f22cc0a3a47a1f71ae8bda264272f.bindPopup(popup_e9982d69cea57244e03a5140ae97c29c)
+        ;
+
+        
+    
+    
+            var marker_9e392955fe3e8fec61272a850a9f9298 = L.marker(
+                [-7.1202, -34.85],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_c3819a14138d109d66ab7f9e25255753 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a78e56c5ce4c429951c5039b806f6acb = $(`<div id="html_a78e56c5ce4c429951c5039b806f6acb" style="width: 100.0%; height: 100.0%;">Porta do Sol Residence Privê</div>`)[0];
+                popup_c3819a14138d109d66ab7f9e25255753.setContent(html_a78e56c5ce4c429951c5039b806f6acb);
+            
+        
+
+        marker_9e392955fe3e8fec61272a850a9f9298.bindPopup(popup_c3819a14138d109d66ab7f9e25255753)
+        ;
+
+        
+    
+    
+            var marker_3025c1e07cbc4848d11f263a83b2d93a = L.marker(
+                [-7.1502, -34.855],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_d4f086e11271d6b8b7a8daf6486e4a48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09615d210d3a129b6b837293d50c18a1 = $(`<div id="html_09615d210d3a129b6b837293d50c18a1" style="width: 100.0%; height: 100.0%;">Condomínio Residencial Altavista</div>`)[0];
+                popup_d4f086e11271d6b8b7a8daf6486e4a48.setContent(html_09615d210d3a129b6b837293d50c18a1);
+            
+        
+
+        marker_3025c1e07cbc4848d11f263a83b2d93a.bindPopup(popup_d4f086e11271d6b8b7a8daf6486e4a48)
+        ;
+
+        
+    
+    
+            var marker_5a0302777eeba78a5ffa932c33405dcb = L.marker(
+                [-7.0196, -34.819],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_1601d6a2cee2e6dd31d7cb553c7d2500 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b6de6927ddb34379be20b681b376f9e = $(`<div id="html_3b6de6927ddb34379be20b681b376f9e" style="width: 100.0%; height: 100.0%;">Condomínio Alphaville João Pessoa</div>`)[0];
+                popup_1601d6a2cee2e6dd31d7cb553c7d2500.setContent(html_3b6de6927ddb34379be20b681b376f9e);
+            
+        
+
+        marker_5a0302777eeba78a5ffa932c33405dcb.bindPopup(popup_1601d6a2cee2e6dd31d7cb553c7d2500)
+        ;
+
+        
+    
+    
+            var marker_354e612c38803defad9fccd40793e8b3 = L.marker(
+                [-7.0187, -34.824],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_75d4e40e95f451cbe547fa631971b862 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_472627ab44cb9ca750aa384458e919dc = $(`<div id="html_472627ab44cb9ca750aa384458e919dc" style="width: 100.0%; height: 100.0%;">Condomínio Village Intermares</div>`)[0];
+                popup_75d4e40e95f451cbe547fa631971b862.setContent(html_472627ab44cb9ca750aa384458e919dc);
+            
+        
+
+        marker_354e612c38803defad9fccd40793e8b3.bindPopup(popup_75d4e40e95f451cbe547fa631971b862)
+        ;
+
+        
+    
+    
+            var marker_fbfdb097f506af90b59191a524f76734 = L.marker(
+                [-6.9914, -34.842],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_7e6e4d6116424e0bf046bdace044ccc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3cd27341831324b61a70c1705f51ddc = $(`<div id="html_f3cd27341831324b61a70c1705f51ddc" style="width: 100.0%; height: 100.0%;">Condomínio Alamoana</div>`)[0];
+                popup_7e6e4d6116424e0bf046bdace044ccc0.setContent(html_f3cd27341831324b61a70c1705f51ddc);
+            
+        
+
+        marker_fbfdb097f506af90b59191a524f76734.bindPopup(popup_7e6e4d6116424e0bf046bdace044ccc0)
+        ;
+
+        
+    
+    
+            var marker_53b3952a0e476f047a106e720a37e8b5 = L.marker(
+                [-7.0249, -34.858],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_68e3245f14827b65d98889c1478b3538 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff0d3036de7585bdcf5f9eeaedcfa066 = $(`<div id="html_ff0d3036de7585bdcf5f9eeaedcfa066" style="width: 100.0%; height: 100.0%;">Alliance House</div>`)[0];
+                popup_68e3245f14827b65d98889c1478b3538.setContent(html_ff0d3036de7585bdcf5f9eeaedcfa066);
+            
+        
+
+        marker_53b3952a0e476f047a106e720a37e8b5.bindPopup(popup_68e3245f14827b65d98889c1478b3538)
+        ;
+
+        
+    
+    
+            var marker_8ceb91b87d9a9e2bce6d2c16d9a0451a = L.marker(
+                [-7.0155, -34.868],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_f7391045acb0fad0bb6ed13b123fd766 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ba5b5a1afd6125de635a63584f91104 = $(`<div id="html_7ba5b5a1afd6125de635a63584f91104" style="width: 100.0%; height: 100.0%;">Condomínio Villas do Atlântico</div>`)[0];
+                popup_f7391045acb0fad0bb6ed13b123fd766.setContent(html_7ba5b5a1afd6125de635a63584f91104);
+            
+        
+
+        marker_8ceb91b87d9a9e2bce6d2c16d9a0451a.bindPopup(popup_f7391045acb0fad0bb6ed13b123fd766)
+        ;
+
+        
+    
+    
+            var marker_1b560abf025d7a5893a1765e0288d7ea = L.marker(
+                [-7.0317, -34.872],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_16cadf09e5e232a800a93c58a00f0b3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52d6e0eb65a64a2251a2781327de0a50 = $(`<div id="html_52d6e0eb65a64a2251a2781327de0a50" style="width: 100.0%; height: 100.0%;">Condominio Atlante Ville</div>`)[0];
+                popup_16cadf09e5e232a800a93c58a00f0b3e.setContent(html_52d6e0eb65a64a2251a2781327de0a50);
+            
+        
+
+        marker_1b560abf025d7a5893a1765e0288d7ea.bindPopup(popup_16cadf09e5e232a800a93c58a00f0b3e)
+        ;
+
+        
+    
+    
+            var marker_7f9ce30d12fd3b029175250f0ca08348 = L.marker(
+                [-6.9812, -34.831],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_665e43e17390b35627147bd8423d0fbf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42015efd6514606eab92135c378af1fa = $(`<div id="html_42015efd6514606eab92135c378af1fa" style="width: 100.0%; height: 100.0%;">Condominio Bosque de Intermares</div>`)[0];
+                popup_665e43e17390b35627147bd8423d0fbf.setContent(html_42015efd6514606eab92135c378af1fa);
+            
+        
+
+        marker_7f9ce30d12fd3b029175250f0ca08348.bindPopup(popup_665e43e17390b35627147bd8423d0fbf)
+        ;
+
+        
+    
+    
+            var marker_f16d3beb7e9bc6041a14c2e9a12edf25 = L.marker(
+                [-7.2123, -35.8692],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_5782f489114be3775d954af476a11c17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4f7d660b815aa16fdd6fa8fbff59f56 = $(`<div id="html_b4f7d660b815aa16fdd6fa8fbff59f56" style="width: 100.0%; height: 100.0%;">Condomínio Villas Ponta de Campina</div>`)[0];
+                popup_5782f489114be3775d954af476a11c17.setContent(html_b4f7d660b815aa16fdd6fa8fbff59f56);
+            
+        
+
+        marker_f16d3beb7e9bc6041a14c2e9a12edf25.bindPopup(popup_5782f489114be3775d954af476a11c17)
+        ;
+
+        
+    
+    
+            var marker_535758501adc5f6c2ce4dd3351f1f654 = L.marker(
+                [-7.2095, -35.8857],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_d30998b0d87919d7549da3dfaedaa819 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cb2779a1958609a917f096467f5e0f8 = $(`<div id="html_0cb2779a1958609a917f096467f5e0f8" style="width: 100.0%; height: 100.0%;">ParkVille Residence Privê</div>`)[0];
+                popup_d30998b0d87919d7549da3dfaedaa819.setContent(html_0cb2779a1958609a917f096467f5e0f8);
+            
+        
+
+        marker_535758501adc5f6c2ce4dd3351f1f654.bindPopup(popup_d30998b0d87919d7549da3dfaedaa819)
+        ;
+
+        
+    
+    
+            var marker_fa42dc0234685e89a5fb00c68890cee5 = L.marker(
+                [-7.2304, -35.8849],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_136085db2765c8d03e54ddba9a48f84b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b048922f37e3669dce47a7ebcc10debe = $(`<div id="html_b048922f37e3669dce47a7ebcc10debe" style="width: 100.0%; height: 100.0%;">Monteville Residence Privê</div>`)[0];
+                popup_136085db2765c8d03e54ddba9a48f84b.setContent(html_b048922f37e3669dce47a7ebcc10debe);
+            
+        
+
+        marker_fa42dc0234685e89a5fb00c68890cee5.bindPopup(popup_136085db2765c8d03e54ddba9a48f84b)
+        ;
+
+        
+    
+    
+            var marker_07044f9317cc98fdb5ba7365561cef56 = L.marker(
+                [-7.2207, -35.9055],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_f48362cb68881195c798a513ca075008 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ef6cd8903b830feaf557f59887481dc = $(`<div id="html_9ef6cd8903b830feaf557f59887481dc" style="width: 100.0%; height: 100.0%;">Serraville Residence Privê</div>`)[0];
+                popup_f48362cb68881195c798a513ca075008.setContent(html_9ef6cd8903b830feaf557f59887481dc);
+            
+        
+
+        marker_07044f9317cc98fdb5ba7365561cef56.bindPopup(popup_f48362cb68881195c798a513ca075008)
+        ;
+
+        
+    
+    
+            var marker_0aae22839a58baea0a50a6ac79e06d94 = L.marker(
+                [-7.2352, -35.9051],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_084dfdcf2e5623c280e73ea5cd2c32a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7812862978375b380c9bfe7a28a24c44 = $(`<div id="html_7812862978375b380c9bfe7a28a24c44" style="width: 100.0%; height: 100.0%;">Alphaville Campina Grande</div>`)[0];
+                popup_084dfdcf2e5623c280e73ea5cd2c32a2.setContent(html_7812862978375b380c9bfe7a28a24c44);
+            
+        
+
+        marker_0aae22839a58baea0a50a6ac79e06d94.bindPopup(popup_084dfdcf2e5623c280e73ea5cd2c32a2)
+        ;
+
+        
+    
+    
+            var marker_318586be3e35b8d29258c6386e4abd2f = L.marker(
+                [-7.2447, -35.9245],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_0876b4b2f655cd5a1e7ec24fc09ff4ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_024c751b961c4195e1d14e40d525c78b = $(`<div id="html_024c751b961c4195e1d14e40d525c78b" style="width: 100.0%; height: 100.0%;">Teriva Campina Grande</div>`)[0];
+                popup_0876b4b2f655cd5a1e7ec24fc09ff4ba.setContent(html_024c751b961c4195e1d14e40d525c78b);
+            
+        
+
+        marker_318586be3e35b8d29258c6386e4abd2f.bindPopup(popup_0876b4b2f655cd5a1e7ec24fc09ff4ba)
+        ;
+
+        
+    
+    
+            var marker_19943ce16879ca23f839ac0dfe400776 = L.marker(
+                [-7.2318, -35.9065],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_db3e49be8bf02bb90b0109cc581fec6b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd1f3bbbbfb5d8a805c82c44492331a2 = $(`<div id="html_bd1f3bbbbfb5d8a805c82c44492331a2" style="width: 100.0%; height: 100.0%;">Terras Alphaville Campina Grande</div>`)[0];
+                popup_db3e49be8bf02bb90b0109cc581fec6b.setContent(html_bd1f3bbbbfb5d8a805c82c44492331a2);
+            
+        
+
+        marker_19943ce16879ca23f839ac0dfe400776.bindPopup(popup_db3e49be8bf02bb90b0109cc581fec6b)
+        ;
+
+        
+    
+    
+            var marker_86a309d20d256bfdb8985efa3c31a2c8 = L.marker(
+                [-7.2107, -35.9135],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_a9b46428b96ce3d16ee8075bacff469f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec1b9b980417f59fd66312d34f7c9b24 = $(`<div id="html_ec1b9b980417f59fd66312d34f7c9b24" style="width: 100.0%; height: 100.0%;">Sierra Condomínio</div>`)[0];
+                popup_a9b46428b96ce3d16ee8075bacff469f.setContent(html_ec1b9b980417f59fd66312d34f7c9b24);
+            
+        
+
+        marker_86a309d20d256bfdb8985efa3c31a2c8.bindPopup(popup_a9b46428b96ce3d16ee8075bacff469f)
+        ;
+
+        
+    
+    
+            var marker_8c88535dd40776a3148a735b271cb16b = L.marker(
+                [-7.1264, -34.8397],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_b8855a3f32e59ca68aff6245b7b23b77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c56ccc6cd4be880f2edc9b9d116b29f = $(`<div id="html_2c56ccc6cd4be880f2edc9b9d116b29f" style="width: 100.0%; height: 100.0%;">Ecoville Residence Privê</div>`)[0];
+                popup_b8855a3f32e59ca68aff6245b7b23b77.setContent(html_2c56ccc6cd4be880f2edc9b9d116b29f);
+            
+        
+
+        marker_8c88535dd40776a3148a735b271cb16b.bindPopup(popup_b8855a3f32e59ca68aff6245b7b23b77)
+        ;
+
+        
+    
+    
+            var marker_08df84fb9d4a1beb9be50e65e5e0bf44 = L.marker(
+                [-6.7461, -35.5505],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_dad8b2368f72ebdc791dd78161b4a8c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13843eabd7f19a212e81beb06a81634e = $(`<div id="html_13843eabd7f19a212e81beb06a81634e" style="width: 100.0%; height: 100.0%;">Alphaville PARAIBA</div>`)[0];
+                popup_dad8b2368f72ebdc791dd78161b4a8c4.setContent(html_13843eabd7f19a212e81beb06a81634e);
+            
+        
+
+        marker_08df84fb9d4a1beb9be50e65e5e0bf44.bindPopup(popup_dad8b2368f72ebdc791dd78161b4a8c4)
+        ;
+
+        
+    
+    
+            var marker_2cae878e0f2a92c7b79231eed1294398 = L.marker(
+                [-6.7469, -35.564],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_efe3e7f2360a50157d16e4d9afec6a08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e6055ac2600921942d680bb67b7bf50 = $(`<div id="html_8e6055ac2600921942d680bb67b7bf50" style="width: 100.0%; height: 100.0%;">Condomínio Caminho da Serra</div>`)[0];
+                popup_efe3e7f2360a50157d16e4d9afec6a08.setContent(html_8e6055ac2600921942d680bb67b7bf50);
+            
+        
+
+        marker_2cae878e0f2a92c7b79231eed1294398.bindPopup(popup_efe3e7f2360a50157d16e4d9afec6a08)
+        ;
+
+        
+    
+    
+            var marker_94607b8fbfbb9b62b87168203b3f62e5 = L.marker(
+                [-6.7507, -35.6037],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_b4b919b1fc0d2b737ee890b2d7086e3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b9fad91ee5c3194fe02ba876b7a8bac = $(`<div id="html_8b9fad91ee5c3194fe02ba876b7a8bac" style="width: 100.0%; height: 100.0%;">Condomínio Yes Banana</div>`)[0];
+                popup_b4b919b1fc0d2b737ee890b2d7086e3f.setContent(html_8b9fad91ee5c3194fe02ba876b7a8bac);
+            
+        
+
+        marker_94607b8fbfbb9b62b87168203b3f62e5.bindPopup(popup_b4b919b1fc0d2b737ee890b2d7086e3f)
+        ;
+
+        
+    
+    
+            var marker_afbed0ee981d03c7ecb03985c5dd4b9c = L.marker(
+                [-7.1322, -35.2915],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_fcc75b195dd8872cc7997c105f8b24de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76fae2bea2476f24bbc9ca49ace17e6f = $(`<div id="html_76fae2bea2476f24bbc9ca49ace17e6f" style="width: 100.0%; height: 100.0%;">Condomínio Sonhos da Serra</div>`)[0];
+                popup_fcc75b195dd8872cc7997c105f8b24de.setContent(html_76fae2bea2476f24bbc9ca49ace17e6f);
+            
+        
+
+        marker_afbed0ee981d03c7ecb03985c5dd4b9c.bindPopup(popup_fcc75b195dd8872cc7997c105f8b24de)
+        ;
+
+        
+    
+    
+            var marker_9676613c1c84467dbce4a8ff90411425 = L.marker(
+                [-7.1201, -35.3046],
+                {}
+            ).addTo(map_ba8e9484bc26aebc08cfe0d0db13b489);
+        
+    
+        var popup_f81cd9e25c8b13c77a82938abde628e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfab20c2bc2697c9ff2c065ed16f0b4d = $(`<div id="html_bfab20c2bc2697c9ff2c065ed16f0b4d" style="width: 100.0%; height: 100.0%;">Condomínio Águas da Serra Haras e Golfe</div>`)[0];
+                popup_f81cd9e25c8b13c77a82938abde628e0.setContent(html_bfab20c2bc2697c9ff2c065ed16f0b4d);
+            
+        
+
+        marker_9676613c1c84467dbce4a8ff90411425.bindPopup(popup_f81cd9e25c8b13c77a82938abde628e0)
+        ;
+
+        
+    
+</script>
+</html>
